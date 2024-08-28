@@ -13,7 +13,7 @@ title = "Blowfish"
   # copyright = "Copy, _right?_ :thinking_face:"
   dateFormat = "2 January 2006"
 
-[author]
+[params.author]
   name = "Your name here"
   image = "img/blowfish_logo.png"
   headline = "I'm only human"
