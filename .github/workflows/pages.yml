@@ -34,7 +34,7 @@ jobs:
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2.6.0
         with: 
-          hugo-version: 0.140.2
+          hugo-version: 0.142.0
           extended: true
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
@@ -55,7 +55,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify -d ./public --baseURL https://nunocoracao.github.io/blowfish_template/
+          hugo -d ./public --baseURL https://nunocoracao.github.io/blowfish_template/
     
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
